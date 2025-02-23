@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI Poem Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to FaithfulRhymes, the AI Poem Generator</h1>
+    </header>
+
+    <main class="container">
+      <form>
+        <input
+          type="text"
+          class="instructions"
+          placeholder="Enter topic of the poem"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" class="submit-button" value="Generate" />
+      </form>
+
+      <div class="poem" id="poem"></div>
+    </main>
+
+    <footer>
+      This AI project was coded by Lethabo Thage and is
+      <a href="#" target="_blank">open-sourced on GitHub</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
